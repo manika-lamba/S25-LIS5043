@@ -26,11 +26,11 @@ format:
 
 `Office:` Room 118E, Bizzell Library
 
-`Office hours:` Thursdays 12-3PM; Fridays 10-12PM; or by appointment
+`Office hours:` Tuesdays & Thursdays (2:30-5 PM) or by appointment
 
 `Email:` manika\@ou.edu
 
-`Research interests:` information organization, digital libraries, science of science using computational methods
+`Research interests:` information organization, digital libraries, science of science using text mining, NLP, & machine learning
 :::
 :::
 
