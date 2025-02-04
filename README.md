@@ -4,8 +4,8 @@
 - [Week 2: Representation & Surrogation](https://manika-lamba.github.io/S25-LIS5043/Week-2/#/title-slide)
 - [Week 3: Users & Information Seeking](https://manika-lamba.github.io/S25-LIS5043/Week-3/#/title-slide)
 - Week 4:
-  - [Module 3.2 Information Retrieval: Representations and Models]
-  - [Module 3.3 Searching Techniques and Process]
+  - [Module 3.2 Information Retrieval: Representations and Models](https://manika-lamba.github.io/S25-LIS5043/Week-4_part1/#/title-slide)
+  - [Module 3.3 Searching Techniques and Process](https://manika-lamba.github.io/S25-LIS5043/Week-4_part2/#/title-slide)
 - [Week 5: Systems and Structures for Organizing Information]
   - [Data Modeling]
 - [Week 6: Information Retrieval Evaluation]
