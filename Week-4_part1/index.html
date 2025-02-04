@@ -1055,8 +1055,13 @@ Dr.&nbsp;Manika Lamba
 </section>
 <section id="other-ir-models" class="slide level2">
 <h2>Other IR Models</h2>
-
-<img data-src="images/clipboard-588880613.png" class="r-stretch"><aside class="notes">
+<p><img data-src="images/clipboard-588880613.png"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="https://www.osti.gov/servlets/purl/1055624#page=1.00&amp;gsr=0"><img data-src="images/clipboard-3169439169.png" class="quarto-figure quarto-figure-center" width="515"></a></p>
+</figure>
+</div>
+<aside class="notes">
 <p>There are other information retrieval models, such as vector space modeling, or what has been known now more recently as ‘clustering,’ Vector space modeling is one of the classical models that has been in development since the 1960s. Vector space modeling or clustering is a partial match technique, meaning that as long as part of your term is present within the document or within the document’s indexing, the document will be retrieved. It uses a weighted scheme, so the terms within the document are given weights, and what differs in a vector space model is that the queries terms are also given weights. So, documents within those sets or those clusters are ranked in decreasing order of the similarity to the query.</p>
 <p>What is nice about vector space models, or ‘VIRI’s,’ as we would call a visual information retrieval interface using the vector space model, is that both the document and the query are represented as term vectors, or points on the diagram, and then the user can manipulate how close they want those vectors to coincide. The term vectors for both the document and the query are then compared for similarity.</p>
 <style type="text/css">
@@ -1106,24 +1111,15 @@ Dr.&nbsp;Manika Lamba
           display:block!important;
       }</style></aside>
 </section>
-<section id="vector-space-irclustering" class="slide level2">
-<h2>Vector Space IR/Clustering</h2>
-
-<img data-src="images/clipboard-217532827.png" style="width:20.0%" class="r-stretch"><aside class="notes">
-<p>The advantage is, of course, that more useful documents seem to be retrieved. This model is really good at precision and recall and moving those measures closer together. And you can also as a user see those measures of relevance between the query terms and the document terms because you can manipulate those two factors or vectors.</p>
-<p>The disadvantage is that it’s a very complex system to use. Although vector space algorithms are part of a lot of commercial systems, few exist with the VIRI interface. It’s difficult to explain how it works to users, especially if they’re trying to understand about measures of similarity and the mathematical function that goes with this type of a model.</p>
-<p>Vector space is not very feasible in OPACs without graphical user interfaces because you need to be able to represent those clusters and the terms and the weighting within a user interface. However, new generation OPACs and database do include faceted searching which uses the vector space/clustering model of retrieval. And IR is of course, subjective and dependent upon the use; the user makes the determination as to how similar the query terms and the document terms are in order to have effective retrieval.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
+<section id="topic-modeling-clustering-approach" class="slide level2 smaller">
+<h2>Topic Modeling: Clustering Approach</h2>
+<ul>
+<li><p>Topic modeling itself is a <em>soft</em> clustering method but the output of topic modeling can be used for classification in downstream tasks such as information retrieval and improving recommendation systems</p></li>
+<li><p>It is used to infer the hidden themes in a collection of documents and thus provides an automatic means to organize, understand and summarize large collections of textual information</p></li>
+<li><p>It is based on statistical and machine learning techniques to mine meaningful information from a vast corpus of unstructured data and is used to mine document’s content</p></li>
+<li><p>It infers abstract topics based on <strong><em>“similar patterns of word usage in each document”</em></strong>. These topics are simply groups of words from the collection of documents that represents the information in the collection in the best way</p>
+<p><img data-src="images/clipboard-1809129871.png" width="500"></p></li>
+</ul>
 </section>
 <section id="other-ir-models-1" class="slide level2 smaller">
 <h2>Other IR Models</h2>
@@ -1158,21 +1154,32 @@ Dr.&nbsp;Manika Lamba
 </section>
 <section id="newer-ir-models" class="slide level2 smaller">
 <h2>Newer IR Models</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
 <ul>
-<li>User Profiles
+<li><p>User Profiles</p>
 <ul>
 <li>uses heuristics (rules of thumb)</li>
 <li>uses process models</li>
 </ul></li>
-<li>Intelligent Agents (e.g.&nbsp;Windows Cortana)
+<li><p>Intelligent Agents (e.g.&nbsp;Windows Cortana)</p>
 <ul>
 <li>autonomous</li>
 <li>able to learn</li>
 <li>customizable</li>
 </ul></li>
-<li>Web Search Engines</li>
-<li>Data Mining/Text Extraction Methods</li>
+<li><p>Web Search Engines</p></li>
+<li><p>Data Mining/Text Extraction Methods</p></li>
 </ul>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/clipboard-1471905613.png"></p>
+<figcaption>Example of Conversational Retrieval System</figcaption>
+</figure>
+</div>
+</div>
+</div>
 <aside class="notes">
 <p>There are also some other, newer IR models that emerged in the seventies, and now in the nineties with the web, and even in two-thousand with the use of, for example, user profiles that we see in Bing. Bing tracks what its users do and assembles profiles based upon the heuristics of the user searching and the whole search process when they’re using the Bing search engine. So, it uses what are called heuristics, or rules of thumb, basic rules that are present in the majority of search experiences. Bing also uses what are called process models, where the search engine looks at the entire process and tries to develop generic process models for users within the Web environment.</p>
 <p>Also coming out of the seventies and eighties is the idea of intelligent agents. These were, and still are, little software programs that are supposed to be autonomous. They are able to watch and learn what a user does when they’re searching or they’re using different database systems, and then they customize the system or help give the use helpful advice whenever they come to that particular system to do a search.</p>
@@ -1196,12 +1203,37 @@ Dr.&nbsp;Manika Lamba
 <h2>Retrieval-Augmented Generation (RAG)</h2>
 <p><code>Retrieval-Augmented Generation (RAG) = Information Retrieval (IR) + Large Language Models (LLMs)</code></p>
 <p>RAG is a technique that helps AI models generate better, more <strong>accurate, and up-to-date</strong> responses by <strong>retrieving relevant information</strong> from external sources before generating an answer</p>
-<p><strong>🔍 Why Do We Need RAG?</strong></p>
+<p><code>Why Do We Need RAG?</code></p>
 <p>Traditional <strong>LLMs (like GPT-4)</strong> have a <strong>fixed knowledge base</strong> from training data. But:<br>
-❌ They <strong>don’t know new information</strong> after training.<br>
-❌ They <strong>hallucinate</strong> (make up facts).<br>
-❌ They <strong>struggle with specific or niche knowledge</strong> (e.g., latest research papers).</p>
-<p>💡 <strong>Solution: RAG helps by searching for relevant documents and using them to generate accurate answers!</strong></p>
+- They <strong>don’t know new information</strong> after training.<br>
+- They <strong>hallucinate</strong> (make up facts).<br>
+- They <strong>struggle with specific or niche knowledge</strong> (e.g., latest research papers).</p>
+<ul>
+<li><strong>Solution: RAG helps by searching for relevant documents and using them to generate accurate answers!</strong></li>
+</ul>
+<aside class="notes">
+<p>With the recent advancement in generative AI, we can use large language models for information retrieval.</p>
+<p>LLMs are trained on massive datasets, but once training stops, their knowledge is frozen in time. So, if something happens after their last update—like a new scientific discovery—they have no idea about it and they start hallucinating.</p>
+<p>Hallucination is defined as when a model generates something that sounds convincing but isn’t actually true. This is a big problem in applications like medicine or law, where accuracy is crucial.</p>
+<p>So, how do we fix these issues? That’s where RAG comes in!</p>
+<p>Instead of just relying on pre-trained knowledge, a RAG model first retrieves relevant information from an external source—like a database, Wikipedia, or even real-time web searches—and then generates a response using that data.</p>
+<p>This means RAG models are:</p>
+<ul>
+<li><p>More up-to-date: Because they pull in fresh, external knowledge.</p></li>
+<li><p>More accurate: Since they ground their responses in retrieved facts.</p></li>
+<li><p>Less prone to hallucination: Because they verify information before generating text.</p></li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
 <section id="how-does-rag-work" class="slide level2">
 <h2>How Does RAG Work?</h2>
@@ -1212,6 +1244,25 @@ Dr.&nbsp;Manika Lamba
 <p><strong>With RAG (LLM + IR):</strong></p>
 <p>🤖 <em>(Searches the web → Finds latest Nobel Prize winners → Summarizes the results)</em></p>
 <p><em>“The 2024 Nobel Prize in Physics was awarded to [Winner’s Name] for [Reason].”</em></p>
+<aside class="notes">
+<p>This slide an example of searching information using RAG.</p>
+<p>But RAG is still not perfect. The biggest challenges are:</p>
+<ol type="1">
+<li><p><strong>Retrieval quality</strong>: If the system fetches bad or irrelevant information, the response will also be wrong.</p></li>
+<li><p><strong>Latency</strong>: Searching external sources takes time, which slows down response generation.</p></li>
+<li><p><strong>Security &amp; Privacy</strong>: Some sources might not be reliable, or the model could pull sensitive data.</p></li>
+</ol>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
 <section id="ir-systems-you-use" class="slide level2">
 <h2>IR systems You Use</h2>

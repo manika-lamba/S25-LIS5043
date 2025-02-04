@@ -954,6 +954,9 @@ are partially useful to their information need.
 
 ![](images/clipboard-588880613.png)
 
+[![](images/clipboard-3169439169.png){fig-align="center"
+width="515"}](https://www.osti.gov/servlets/purl/1055624#page=1.00&gsr=0)
+
 ::: notes
 There are other information retrieval models, such as vector space
 modeling, or what has been known now more recently as ‘clustering,’
@@ -1008,33 +1011,26 @@ There are some search engines, for example Clusty, that use clustering
 as its retrieval mechanism.
 :::
 
-## Vector Space IR/Clustering
+## Topic Modeling: Clustering Approach {.smaller}
 
-![](images/clipboard-217532827.png){width="20%"}
+-   Topic modeling itself is a *soft* clustering method but the output
+    of topic modeling can be used for classification in downstream tasks
+    such as information retrieval and improving recommendation systems
 
-::: notes
-The advantage is, of course, that more useful documents seem to be
-retrieved. This model is really good at precision and recall and moving
-those measures closer together. And you can also as a user see those
-measures of relevance between the query terms and the document terms
-because you can manipulate those two factors or vectors.
+-   It is used to infer the hidden themes in a collection of documents
+    and thus provides an automatic means to organize, understand and
+    summarize large collections of textual information
 
-The disadvantage is that it’s a very complex system to use. Although
-vector space algorithms are part of a lot of commercial systems, few
-exist with the VIRI interface. It’s difficult to explain how it works to
-users, especially if they’re trying to understand about measures of
-similarity and the mathematical function that goes with this type of a
-model.
+-   It is based on statistical and machine learning techniques to mine
+    meaningful information from a vast corpus of unstructured data and
+    is used to mine document’s content
 
-Vector space is not very feasible in OPACs without graphical user
-interfaces because you need to be able to represent those clusters and
-the terms and the weighting within a user interface. However, new
-generation OPACs and database do include faceted searching which uses
-the vector space/clustering model of retrieval. And IR is of course,
-subjective and dependent upon the use; the user makes the determination
-as to how similar the query terms and the document terms are in order to
-have effective retrieval.
-:::
+-   It infers abstract topics based on ***“similar patterns of word
+    usage in each document”***. These topics are simply groups of words
+    from the collection of documents that represents the information in
+    the collection in the best way
+
+    ![](images/clipboard-1809129871.png){width="500"}
 
 ## Other IR Models {.smaller}
 
@@ -1089,15 +1085,29 @@ opposed to being able to search everything like you can with Google.
 
 ## Newer IR Models {.smaller}
 
+::: columns
+::: {.column width="50%"}
 -   User Profiles
+
     -   uses heuristics (rules of thumb)
     -   uses process models
+
 -   Intelligent Agents (e.g. Windows Cortana)
+
     -   autonomous
     -   able to learn
     -   customizable
+
 -   Web Search Engines
+
 -   Data Mining/Text Extraction Methods
+:::
+
+::: {.column width="50%"}
+![Example of Conversational Retrieval
+System](images/clipboard-1471905613.png){fig-align="center"}
+:::
+:::
 
 ::: notes
 There are also some other, newer IR models that emerged in the
@@ -1161,19 +1171,40 @@ RAG is a technique that helps AI models generate better, more
 **accurate, and up-to-date** responses by **retrieving relevant
 information** from external sources before generating an answer
 
-**🔍 Why Do We Need RAG?**
+`Why Do We Need RAG?`
 
 Traditional **LLMs (like GPT-4)** have a **fixed knowledge base** from
 training data. But:\
-❌ They **don’t know new information** after training.\
-❌ They **hallucinate** (make up facts).\
-❌ They **struggle with specific or niche knowledge** (e.g., latest
+- They **don’t know new information** after training.\
+- They **hallucinate** (make up facts).\
+- They **struggle with specific or niche knowledge** (e.g., latest
 research papers).
 
-💡 **Solution: RAG helps by searching for relevant documents and using
-them to generate accurate answers!**
+-   **Solution: RAG helps by searching for relevant documents and using
+    them to generate accurate answers!**
 
-## How Does RAG Work? 
+::: notes
+With the recent advancement in generative AI, we can use large language models for information retrieval.
+
+LLMs are trained on massive datasets, but once training stops, their knowledge is frozen in time. So, if something happens after their last update—like a new scientific discovery—they have no idea about it and they start hallucinating. 
+
+Hallucination is defined as when a model generates something that sounds convincing but isn’t actually true. This is a big problem in applications like medicine or law, where accuracy is crucial.
+
+So, how do we fix these issues? That’s where RAG comes in!
+
+Instead of just relying on pre-trained knowledge, a RAG model first retrieves relevant information from an external source—like a database, Wikipedia, or even real-time web searches—and then generates a response using that data.
+
+This means RAG models are:
+
+- More up-to-date: Because they pull in fresh, external knowledge.
+
+- More accurate: Since they ground their responses in retrieved facts.
+
+- Less prone to hallucination: Because they verify information before generating text.
+
+:::
+
+## How Does RAG Work?
 
 **Imagine you ask an AI:**
 
@@ -1190,6 +1221,18 @@ the results)*
 
 *"The 2024 Nobel Prize in Physics was awarded to \[Winner’s Name\] for
 \[Reason\]."*
+
+::: notes
+This slide an example of searching information using RAG. 
+
+But RAG is still not perfect. The biggest challenges are:
+
+1. **Retrieval quality**: If the system fetches bad or irrelevant information, the response will also be wrong.
+
+2. **Latency**: Searching external sources takes time, which slows down response generation.
+
+3. **Security & Privacy**: Some sources might not be reliable, or the model could pull sensitive data.
+:::
 
 ## IR systems You Use
 
