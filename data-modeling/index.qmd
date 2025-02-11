@@ -1,0 +1,450 @@
+---
+title: "Forever Frogs: Jumping into Attributes & Fields"
+subtitle: "LIS 5043: Organization of Information"
+author: 
+  - Dr. Manika Lamba
+format:
+  revealjs: 
+    slide-number: true
+    chalkboard: 
+      theme: whiteboard
+      buttons: true
+    preview-links: true
+    controls: true
+    progress: true
+    show-notes: separate-page
+    logo: images/ou.png
+    css: styles.css
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+# Introduction
+
+::: notes
+Welcome to the Forever Frogs exercise. This is a self paced exercise.
+You can complete it at your own speed.
+
+So, let’s get started.
+
+I have brought a very special collection of objects for you to work
+with. Feel free to browse the slides at your own pace.
+
+The collection currently is about 300 items, though for the purpose of
+this exercise, think about the collection as being in a retail location
+and consisting of well over 1,000 items of various formats.
+:::
+
+## Our Collection: Forever Frogs {.smaller}
+
+-   Forever Frogs is a retail store that sells artistic representations
+    of frogs, just frogs, everything froggy. It is located in an upscale
+    village square of a progressive community in the Midwest. The
+    collection contains several formats, for example:
+    -   Garden sculpture
+    -   Children’s toys
+    -   Fiction and nonfiction books
+    -   Realia, images, paintings, etc.
+    -   Music
+    -   Robots and other electronics
+    -   Clothing
+-   Because the owners are so terribly busy traveling the world to find
+    all things froggy, they do not have the time to design an
+    organization system for the collection. Your task is to model on
+    paper the ideal organization system for Forever Frogs.
+
+::: notes
+You have been commissioned to create an organization system for the
+retail store, Forever Frogs. The store is located in an upscale village
+square of a progressive community in the Midwest.
+
+The collection contains several formats (as you will view on the next
+slides), for example:
+
+-   Garden sculpture
+
+-   Children’s toys
+
+-   Fiction and nonfiction books
+
+-   Realia, images, paintings, etc.
+
+-   Music Robots and other electronics
+
+-   Clothing
+:::
+
+## 
+
+![](images/clipboard-2685995623.png){width="239"}
+
+::: notes
+Who knew garden art could be so cute and so froggy? This object is made
+of tin and has been painted brown, two shades of green and some red. He
+is about 8 inches long and 6 inches high and is designed to sit in the
+garden or on a table in the sun. He doesn’t catch flies though.
+:::
+
+# 
+
+![](images/clipboard-822985633.png){fig-align="center" width="70%"}
+
+::: notes
+This object is in three pieces. It is a salt and pepper shaker set. It
+is ceramic and painted green, yellow, orange, brown and some grays. It
+is about 3 inches high and 4 inches wide. It is also about 50 years old.
+:::
+
+## 
+
+![](images/clipboard-2530177890.png){fig-align="center" width="294"}
+
+::: notes
+This is Bob. He is a bobble-head toy frog that children will love to
+play with. He depicts a red-eyed tree frog. See later slides for more on
+Bob.
+
+He is also the owners’ favorite.
+:::
+
+## 
+
+![](images/clipboard-3932866239.png){width="90%"}
+
+::: notes
+Some frogs are not only beautiful but also have a specific function to
+fulfill. This little one is a jewelry box. It is cloisonné, painted
+reds, pinks, greens, yellow and white. It is about 2.5 inches high and 3
+inches long. The top comes off completely to reveal a golden interior
+for storage.
+:::
+
+## ![](images/clipboard-4275463228.png)
+
+::: notes
+This object is also a jewelry box, though it is smaller and really only
+will fit a ring or a small set of earrings. The lid lifts back flat to
+reveal a gold interior. It is also cloisonné and painted green, gold,
+read, and has jewels for eyes. Detail includes a small gold butterfly.
+It is about 2 inches high and 2 inches long.
+:::
+
+## ![](images/clipboard-1330986391.png)
+
+::: notes
+This object is very unique. It is a ring holder, so it has one specific
+purpose. It is brass, painted blue, green, red and some gold. The top
+frog and lilly pad lift off to slide the ring on. It is about 5 inches
+tall and the base is 1.25 inches across.
+:::
+
+## ![](images/clipboard-3562892180.png)
+
+::: notes
+What a great picture frame for your own works of art! This object is
+about 5 inches high and about 1.5 inches wide. The back can be removed
+to insert pictures. It is painted green and silver and has jewel eyes.
+:::
+
+## ![](images/clipboard-669335089.png)
+
+::: notes
+Doesn’t everyone love robots? Well here is a robot frog. He hops, sings,
+dances, and catches flies. What more could you want? (His tongue
+actually extends to catch a fly off of a branch) He is 10 inches high,
+14 inches long and made of green and silver plastic. His tongue is pink
+plastic. He needs four C batteries to work and has a remote to control
+the functions.
+:::
+
+## ![](images/clipboard-4024237819.png){width="85%"}
+
+::: notes
+This is Ben. He is a plush puppet. He is soft, furry, and green, yellow,
+and orange. He has wonderful expressive red and black eyes. He has a
+sound box that allows him to croak if squeezed just right. He is about
+12 inches long and 8 inches wide. He is very cuddly.
+:::
+
+## ![](images/clipboard-551990712.png)
+
+::: notes
+Here is an nonfiction book about frogs and their development. The
+pictures are in color and the book is 8.5 x 11 inches. More about this
+book later.
+:::
+
+## ![](images/clipboard-1370068036.png)
+
+::: notes
+Can you believe an autobiography? This book contains the diary of a frog
+during its life and seasons. The pictures are all in color, it is
+hardbound, and 15 inches wide, 10 inches long.
+:::
+
+## ![](images/clipboard-1088341698.png)
+
+::: notes
+This work is a wonderful old book about myths, legends, and lore about
+frogs. The pictures are very detailed and in black and white, sepia, and
+color. It is hardbound, 10 inches high x 8 inches wide. The stories are
+unique and it is a must to any froggy collection.
+
+The last slides have shown you a representative sample of this diverse
+collection. As mentioned earlier you should view it as containing over
+1,000 objects.
+
+Now let’s talk about how to begin modeling the system for this
+collection.
+:::
+
+## Entity First Level
+
+![](images/clipboard-459783283.png){fig-align="center"}
+
+-   Each object in the collection will be represented at one or many
+    entity levels
+-   In this case `one level` is appropriate. The whole object level.
+    This means that I will have `one` record in my system for
+    `each object`.
+
+::: notes
+First let’s consider the entity level. You might recall from the Module
+2 lecture that the entity level is the “chunk” or portion of the object
+we are representing within one record in our system. Libraries tend to
+work at the whole object level and represent one book or dvd with one
+record in the system.
+
+This is what we call the whole object entity level. Some collections
+have more than one level represented. For example, a collection of music
+cd’s might be represented at the whole object level (album) or it could
+also be represented at both the album and the song level. It you choose
+to have more than one level, your system (field structure) needs to be
+able to accommodate both levels.
+
+So, the first step in the modeling of the objects is to determine the
+entity level. For our collection we will work at the whole object level.
+:::
+
+## Next Let’s Talk About Attributes
+
+![](images/clipboard-459783283.png){fig-align="center"}
+
+> Bob is a bobble-head toy or artifact that can sit on a shelf. He is 4
+> inches tall, 6 inches long, and is green, gold, blue and red. He
+> represents a red-eyed tree frog. He has soft, felt on his body. He has
+> a moving head that bobs when you touch it. He was made by Zoologics
+> Inc.
+
+::: notes
+Now we can talk about attributes.
+
+Attributes are the general characteristics of objects. When I say
+“general”, I mean that we are looking for characteristics that are
+represented by the objects in the collection but at the least specific
+level.
+
+Bob is described more above. From the description and your observation,
+you can begin to pick out the attributes that describe Bob, but that
+also describe the other objects in the collection.
+:::
+
+## Attributes for Bob?
+
+![](images/clipboard-459783283.png){fig-align="center"}
+
+> `Bob` is a `bobble-head toy` or artifact that can sit on a shelf. He
+> is `4 inches tall`, `6 inches long`, and is `green, gold, and red`. He
+> represents a `red-eyed tree frog`. He has `soft, felt` on his body. He
+> has a `moving head` that bobs when you touch it. He was
+> `made by Zoologics Inc`.
+
+::: notes
+I have highlighted the attributes I can identify from the description of
+Bob. These describe the Name, Physical Description, Creator and Subject.
+:::
+
+## Attributes for Bob?
+
+-   `Bob` -- his **Name**
+-   `bobble-head toy` -- is his **Format**
+-   `4 inches tall, 6 inches long` -- is his **Size**
+-   `green, gold, and red` -- is his **Color**
+-   `red-eyed tree frog` -- is the **Subject? Species? Style?**
+-   `soft, felt` -- is his **Texture**
+-   `moving head made by Zoologics Inc.` -- is his **Creator
+    (manufacturer)**
+
+::: notes
+Here is another way to look at attributes. Most, if not all objects,
+will have a Name. For books we think of this as Title. For 3-D objects
+we think of this as Name so let’s stick with Name so that we can
+generally describe the objects.
+
+For Bob we also have Format. He is a toy. We could also include this
+attribute under Physical Description if we like.
+
+Physical Description includes: Color, Texture, Size, etc. For books we
+might think of number of pages, dimension, material made of, etc.
+
+He was made by a company called Zoologics. This is a Creator attribute.
+We could structure this into a field called Manufacturer later, or
+Publisher for books. Creator, again allows us to generally describe the
+objects in the collection.
+:::
+
+## Attributes for Books? {.smaller}
+
+::: columns
+::: {.column width="50%"}
+![![](images/clipboard-1323061874.png)](images/clipboard-2884194949.png)
+:::
+
+::: {.column width="50%"}
+-   *If I were a frog* = `NAME`
+-   *Sherry Been* = `CREATOR`
+-   *Reader’s Digest Childrens Publishers Inc.* = `CREATOR`
+-   *Autobiography* = `SUBJECT`
+-   *Frogs* = `SUBJECT`
+-   *Book* = `FORMAT`
+:::
+:::
+
+::: notes
+Books are a little easier to extract attributes. A book has a Creator
+(author, publisher, illustrator, etc.), it has a Name (we think of
+Title), Subject, and Physical Description.
+:::
+
+## Data Modeling {.smaller}
+
++-------------+-------------+-------------+-------------+
+| Attribute   | Field Name  | Searchable  | Physical or |
+|             |             |             | Subject     |
+|             |             | Y or N?     |             |
++=============+=============+=============+=============+
+| Name        | -   Name    | -   Y       | Physical    |
+|             |             |             |             |
+|             | -   Title   | -   Y       |             |
++-------------+-------------+-------------+-------------+
+| Creator     | -   M       | -   Y       | Physical    |
+|             | anufacturer |             |             |
+|             |             | -   Y       |             |
+|             | -           |             |             |
+|             |   Publisher | -   Y       |             |
+|             |             |             |             |
+|             | -   Author  |             |             |
++-------------+-------------+-------------+-------------+
+| Physical    | -   Format  | -   N       | Physical    |
+| Description |             |             |             |
+|             | -           | -   N       |             |
+|             |    Color(s) |             |             |
+|             |             | -   N       |             |
+|             | -   Texture |             |             |
+|             |             | -   N       |             |
+|             | -   Size    |             |             |
++-------------+-------------+-------------+-------------+
+| Subject     | -           | -   Y       | Subject     |
+|             |    Function |             |             |
+|             |             | -   Y       |             |
+|             | -   Subject |             |             |
++-------------+-------------+-------------+-------------+
+
+::: notes
+Now let’s take what we just discussed and model the attributes into a
+table.
+
+The first column includes the attributes we extracted from the objects
+in the collection. Again, think about the representative sample of
+objects you are using to illustrate the collection. This table only
+shows a few we discussed for Bob and for books. You will need to include
+ALL in your project.
+
+The second column includes the field or field names that your attributes
+becomes in the system structure (metadata scheme). These can be a one to
+one or one to many relationship, meaning one attribute can become one or
+many fields in the system.
+
+For example, the Creator attribute is expressed in the system design as
+three fields. It could even be more if you want to include Illustrator
+information. The Name attribute has been expressed here as two fields
+but you could opt to include only one field, using Name as the general
+field name to accommodate all potential issues with naming the various
+formats of objects.
+
+The third column is where you show your decision of whether or not to
+make a field searchable. If you want a field to be searchable within the
+system, you have to index it. That in turn tells the system that an
+inverted index should be created by the system.
+
+It also tells the system to make that field available for searching.
+When someone then uses the system and they search the Name field, they
+are ONLY searching the inverted index for the Name field. Your indexing
+decisions should be based upon what you know about your users and how
+they use the collection.
+
+The last column is to illustrate if the field is related to the physical
+aspects (container aspects) or the subject (content aspects) of the
+object.
+:::
+
+## Implementation of Data Model
+
+![](images/clipboard-2349705143.png){fig-align="center"}
+
+::: notes
+Now that we have our system field structure (metadata scheme) in place,
+let’s think about creating a record for one of our objects. The table
+above shows you how the record might appear in the system. Note that not
+all fields have values assigned to them. Name is not related to this
+object, but Title is, so we ONLY fill in the Title field.
+
+We can either leave the Name field (and all other unused fields) blank
+or we can write into our rule to include a statement like “Not
+applicable”. The point here, is that you can have blank fields in a
+record. You also have to make it clear in your rule if this is the case
+or if a special statement should instead be entered into the field.
+:::
+
+## Bob’s Record in the System {.smaller}
+
+-   Record ID: 0001
+
+-   Name: Bob
+
+-   Manufacturer: ZooLogics Inc.
+
+-   Format: toy
+
+-   Size: 6 inches long, 4 inches high
+
+-   Color: green, gold, red
+
+-   Features: movable head
+
+-   Subject: red-eyed tree frog
+
+-   Function: entertainment
+
+-   Image:![](images/clipboard-3989374908.png)
+
+::: notes
+Here is what Bob’s record might look like in your system. Each field’s
+value will be created following the input rules you create for each
+field in the system.
+
+I have included an image field so that the “Forever Frogs” customers
+could see the object before they go to the trouble of locating the toy
+in the store. You can also include an image field if important to your
+users and their system use.
+
+You have successfully designed an information organization
+system—beginning with a setting, a collection, and potential users. You
+then used this information to develop a data model of the system. You
+would then implement the data model in a field structure, created input
+rules for each field, and then use both the structure and the input
+rules to create records to describe the objects in the collection.
+
+CONGRATULATIONS!
+:::
