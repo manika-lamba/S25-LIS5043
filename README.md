@@ -6,8 +6,8 @@
 - Week 4:
   - [Module 3.2 Information Retrieval: Representations and Models](https://manika-lamba.github.io/S25-LIS5043/Week-4_part1/#/title-slide)
   - [Module 3.3 Searching Techniques and Process](https://manika-lamba.github.io/S25-LIS5043/Week-4_part2/#/title-slide)
-- [Week 5: Systems and Structures for Organizing Information]
-  - [Data Modeling]
+- [Week 5: Systems and Structures for Organizing Information](https://manika-lamba.github.io/S25-LIS5043/Week-5/#/title-slide)
+  - [Data Modeling](https://manika-lamba.github.io/S25-LIS5043/data-modeling/#/title-slide)
 - [Week 6: Information Retrieval Evaluation]
 - [Week 7: Standards and Standardization]
 - [Week 8: Ethics, Diversity and Access  Within Information Organization]
