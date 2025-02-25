@@ -749,7 +749,7 @@ that you’ve heard about and others that you have not, but that you’ve
 definitely used if you’ve used any retrieval system.
 :::
 
-## Content Creation Standards  {.smaller}
+## Content Creation Standards {.smaller}
 
 -   `International Standard Bibliographic Description (ISBD)`
     -   serves as an international standard that defines a set of
@@ -784,7 +784,7 @@ IFLA began their work on the consolidation of the ISBDs into one in
 2003, and they published the consolidated ISBD in 2007.
 :::
 
-## Content Creation Standards  {.smaller}
+## Content Creation Standards {.smaller}
 
 -   `Resource Description and Access (RDA)`
     -   began work in 2003
@@ -970,7 +970,7 @@ databases using this as their metadata structure. I’ve listed a few of
 those on your readings page that you can take a look at their websites.
 :::
 
-## Metadata Schemes  {.smaller}
+## Metadata Schemes {.smaller}
 
 -   Many developed since mid to late 1990’s
 -   Developed for multiple purposes/environments/collections
