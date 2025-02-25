@@ -183,7 +183,7 @@ has been at the forefront for developing a .jpeg standard and the PDF
 standards.
 :::
 
-## Who: American National Standards Institute (ANSI)
+## Who: American National Standards Institute (ANSI)  {.smaller}
 
 **ANSI - Overview of ANSI (2009)**
 
@@ -225,9 +225,7 @@ interesting body. As I said, they serve as coordination, accrediting,
 and representative body for American standards.
 :::
 
-## Who: National Information Standards Organization (NISO)
-
-**NISO - About NISO (2009)**
+## Who: National Information Standards Organization (NISO)  {.smaller}
 
 -   Non-profit association accredited by the American National Standards
     Institute which "identifies, develops, maintains, and publishes
@@ -237,6 +235,19 @@ and representative body for American standards.
 -   NISO standards apply both traditional and new technologies to the
     full range of information-related needs, including retrieval,
     re-purposing, storage, metadata, and preservation
+
+-   NISO's Mission Statement emphasizes their commitment to standards
+    development
+
+-   "NISO fosters the development and maintenance of standards that
+    facilitate the creation, persistent management, and effective
+    interchange of information so that it can be trusted for use in
+    research and learning"
+
+-   NISO's voting members include industry leaders of over 70
+    organizations in the fields of publishing, libraries, IT, and media,
+    as well as experts and practitioners who serve on NISO working
+    groups, committees, and as officers of the association
 
 ::: notes
 NISO, then, or the National Information Standards Organization, is a
@@ -253,24 +264,7 @@ full range of information-related needs,” but they focus primarily on
 “retrieval, repurposing, storage, metadata, and preservation” issues.
 You can find that information and more about NISO at the NISO webpage
 listed on the Readings List.
-:::
 
-## NISO (Cont.) {.smaller}
-
--   NISO's Mission Statement emphasizes their commitment to standards
-    development
-
--   "NISO fosters the development and maintenance of standards that
-    facilitate the creation, persistent management, and effective
-    interchange of information so that it can be trusted for use in
-    research and learning" (NISO, About NISO, 2009)
-
--   NISO's voting members include industry leaders of over 70
-    organizations in the fields of publishing, libraries, IT, and media,
-    as well as experts and practitioners who serve on NISO working
-    groups, committees, and as officers of the association
-
-::: notes
 NISO’s primary mission, or their mission statement, emphasizes their
 commitment to standards development. As an information professional, you
 can become a member of NISO and have voting rights and get involved in
@@ -334,7 +328,7 @@ have a whole host of different standards supporting each of these
 different areas and more.
 :::
 
-## ISO (Cont.)
+## ISO (Cont.)  {.smaller}
 
 > "a non-governmental organization comprised of a network of national
 > standards institutes from 162 countries, as well as members from both
@@ -342,6 +336,21 @@ different areas and more.
 > associations, and member institutes that are part of the governmental
 > structure of their countries, or are mandated by their government"
 > (ISO, About ISO, 2020)
+
+-   ISO collaborates with international and regional partners
+
+-   `International partners` include, the International Electrotechnical
+    Commission (IEC), the International Telecommunication Union (ITU),
+    the World Trade Organization (WTO), or the United Nations (UN)
+    Organization
+
+-   `ISO's technical committees` have formal liaison relations with over
+    600 international and regional organizations
+
+-   `ISO's regional partners` include for example, the African Regional
+    Organization for Standardization (ARSO), the European Committee for
+    Standardization (CEN), and the Pan American Standards Commission
+    (COPANT)
 
 ::: notes
 ISO is also what we call a ‘non-governmental organization,’ or an NGO,
@@ -361,26 +370,7 @@ of the individuals or communities or people within that community–that
 standard community–have some stake in the development of the standard,
 whether it’s an economic, humanitarian, or environmental stake, they all
 have a voice in this process.
-:::
 
-## ISO (Cont.)
-
--   ISO collaborates with international and regional partners
-
--   `International partners` include, the International Electrotechnical
-    Commission (IEC), the International Telecommunication Union (ITU),
-    the World Trade Organization (WTO), or the United Nations (UN)
-    Organization
-
--   `ISO's technical committees` have formal liaison relations with over
-    600 international and regional organizations
-
--   `ISO's regional partners` include for example, the African Regional
-    Organization for Standardization (ARSO), the European Committee for
-    Standardization (CEN), and the Pan American Standards Commission
-    (COPANT)
-
-::: notes
 As well as that community of ISO, members collaborate outside of the
 community with international and regional partners, and I’ve given you
 just a few examples of these partnerships on this slide.
