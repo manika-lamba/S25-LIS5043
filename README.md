@@ -8,8 +8,8 @@
   - [Module 3.3 Searching Techniques and Process](https://manika-lamba.github.io/S25-LIS5043/Week-4_part2/#/title-slide)
 - [Week 5: Systems and Structures for Organizing Information](https://manika-lamba.github.io/S25-LIS5043/Week-5/#/title-slide)
   - [Data Modeling](https://manika-lamba.github.io/S25-LIS5043/data-modeling/#/title-slide)
-- [Week 6: Information Retrieval Evaluation]
-- [Week 7: Standards and Standardization]
+- [Week 6: Information Retrieval Evaluation](https://manika-lamba.github.io/S25-LIS5043/Week-6/#/title-slide)
+- [Week 7: Standards and Standardization](https://manika-lamba.github.io/S25-LIS5043/Week-7/#/title-slide)
 - [Week 8: Ethics, Diversity and Access  Within Information Organization]
 - Week 9
   - [Module 7.1.1 Conceptual Models: FRBR, FRAD, FRSAD PART 1]
