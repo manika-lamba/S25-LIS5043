@@ -14,8 +14,8 @@
 - Week 9
   - [Module 7.1.1 Conceptual Models: FRBR, FRAD, FRSAD PART 1](https://manika-lamba.github.io/S25-LIS5043/Week-9_part1/#/title-slide)
   - [Module 7.1.1 Conceptual Models: FRBR, FRAD, FRSAD PART 2](https://manika-lamba.github.io/S25-LIS5043/Week-9_part2/#/title-slide)
-- [Week 10: Bibliographic Access, MARC, and Authority Control]
-- [Week 11: Other Metadata Schemes]
+- [Week 10: Bibliographic Access, MARC, and Authority Control](https://manika-lamba.github.io/S25-LIS5043/Week-10/#/title-slide)
+- [Week 11: Other Metadata Schemes](https://manika-lamba.github.io/S25-LIS5043/Week-11/#/title-slide)
 - [Week 12: Subject Access]
 - [Week 13: Representation -- Classification, Categories, Taxonomies, Ontologies]
 - Week 14:
