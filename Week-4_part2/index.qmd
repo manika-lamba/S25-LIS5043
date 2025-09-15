@@ -123,7 +123,7 @@ steps to good database searching.
 
 ## Steps to Follow When Searching
 
-![](images/paste-5C3867E2.png){fig-align="center" width="700"}
+![](images/paste-5C3867E2.png){fig-align="center" width="580"}
 
 ::: notes
 The first step is to read the query. We can substitute that for either
@@ -153,7 +153,7 @@ through them in more depth.
 
 ## Steps to Follow When Searching
 
-![](images/paste-615E5423.png)
+![](images/paste-615E5423.png){fig-align="center" width="532"}
 
 ::: notes
 The fifth step is to determine logical or Boolean relationships that
@@ -174,7 +174,7 @@ based on your initial results.
 
 ## Step 1
 
-![](images/paste-DA469959.png)
+![](images/paste-DA469959.png){fig-align="center" width="525"}
 
 ::: notes
 Okay, let's talk about step one. Again, it was to read the query, to
@@ -271,7 +271,7 @@ are present in that query. And then you start thinking about other
 terms.
 :::
 
-## Step 2 continued
+## Step 2 (Cont.)
 
 ![](images/paste-BC15371B.png){fig-align="center" width="100%"}
 
@@ -300,7 +300,7 @@ each of those different Legos.
 
 ## Step 3: Identify terms to use
 
-![](images/paste-3659D359.png)
+![](images/paste-3659D359.png){fig-align="center"}
 
 ::: notes
 So, now we've identified several concepts, and we've started to think
@@ -361,7 +361,7 @@ searches ahead of time.
 
 ## Step 4: Select alternative terms
 
-![](images/paste-C3CD8624.png){fig-align="center" width="100%"}
+![](images/paste-C3CD8624.png){fig-align="center" width="63%"}
 
 ::: notes
 So, now that you've identified other terms to use, or you've selected
@@ -1068,7 +1068,7 @@ You also want to check that your combinations are correct.
     is that how you want it to be read?
 :::
 
-## Step 9 continued
+## Step 9 (Cont.)
 
 ![](images/paste-613E837F.png){fig-align="center" width="500"}
 
