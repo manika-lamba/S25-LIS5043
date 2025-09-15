@@ -531,7 +531,7 @@ need to choose the appropriate sources in which to conduct your
 searches, or you're going to waste your time. You're going to come up
 with items that are not relevant. You're going to become frustrated and
 think your terms aren't working, and it's because you're in the wrong
-database to being with.
+database to begin with.
 
 So, the first step to this, of course, is to take some time to
 familiarize yourself with databases and different combinations of
