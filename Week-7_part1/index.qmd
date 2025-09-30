@@ -1,5 +1,5 @@
 ---
-title: "Module 5: Standards and Standardization"
+title: "Module 5.1: Standards and Standardization"
 subtitle: "LIS 5043: Organization of Information"
 author: 
   - Dr. Manika Lamba
@@ -183,7 +183,7 @@ has been at the forefront for developing a .jpeg standard and the PDF
 standards.
 :::
 
-## Who: American National Standards Institute (ANSI)  {.smaller}
+## Who: American National Standards Institute (ANSI) {.smaller}
 
 **ANSI - Overview of ANSI (2009)**
 
@@ -225,7 +225,7 @@ interesting body. As I said, they serve as coordination, accrediting,
 and representative body for American standards.
 :::
 
-## Who: National Information Standards Organization (NISO)  {.smaller}
+## Who: National Information Standards Organization (NISO) {.smaller}
 
 -   Non-profit association accredited by the American National Standards
     Institute which "identifies, develops, maintains, and publishes
@@ -328,7 +328,7 @@ have a whole host of different standards supporting each of these
 different areas and more.
 :::
 
-## ISO (Cont.)  {.smaller}
+## ISO (Cont.) {.smaller}
 
 > "a non-governmental organization comprised of a network of national
 > standards institutes from 162 countries, as well as members from both
@@ -745,12 +745,25 @@ definitely used if you’ve used any retrieval system.
     -   serves as an international standard that defines a set of
         descriptive elements to include in bibliographic records
 
-    -   There are ten specialized ISBDs related to: 1) (A), older
-        monographic publications, 2) (CF) computer files, 3) (CM)
-        cartographic materials; 4) (CR) serials and continuing
-        resources, 5) (ER) electronic resources, 6) (G) general, 7) (M)
-        monographic, 8) (NBM) nonbook materials, 9) (PM) printed music,
-        and 10) (S) serials
+    -   There are ten specialized ISBDs related to:
+
+        ::::: columns
+        ::: {.column width="50%"}
+        -   ISBD(A), older monographic publications
+        -   ISBD(CF) computer files
+        -   ISBD(CM) cartographic materials
+        -   ISBD(CR) serials and continuing resources
+        -   ISBD(ER) electronic resources
+        :::
+
+        ::: {.column width="50%"}
+        -   ISBD(G) general
+        -   ISBD(M) monographic
+        -   ISBD(NBM) nonbook materials
+        -   ISBD(PM) printed music
+        -   ISBD(S) serials
+        :::
+        :::::
 
     -   IFLA began work on the consolidated the ISBDs into one in 2003,
         with publication in the consolidated ISBD in 2007
