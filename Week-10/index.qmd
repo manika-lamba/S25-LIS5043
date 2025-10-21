@@ -212,7 +212,7 @@ Note that we do not use field labels that are words, we use numbers.
 For example, title information is included in the 2XX fields. Subject
 information is in the 6XX fields.
 
-You will be exploring the MARC structure further in AE#5.
+You will be exploring the MARC structure further in the next assignment.
 :::
 
 ## Record Structure Parts
@@ -326,7 +326,7 @@ subfield code, usually a one alpha or numeric character such as the \$a,
 \$b, \$c examples shown on the slide.
 
 You will be using an online tool called the MARC Bibliographic Format to
-decode the different field tags/subfields, indicators, etc. in AE#5.
+decode the different field tags/subfields, indicators, etc. in the next assignment.
 :::
 
 ## MARC Bibliographic Format
@@ -761,7 +761,7 @@ have created through the years. *(Many of these are still in card
 catalog format)*
 
 Now we also have access to the Library of Congress’ Authority File
-(located at: <http://www.authorities.loc.gov>). This system is free to
+(located at: <https://authorities.loc.gov/>). This system is free to
 anyone with an internet connection. It did not used to be freely
 accessible.
 
