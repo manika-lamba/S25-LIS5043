@@ -20,6 +20,6 @@
 - [Week 12: Subject Access](https://manika-lamba.github.io/S25-LIS5043/Week-12/#/title-slide)
 - [Week 13: Representation -- Classification, Categories, Taxonomies, Ontologies](https://manika-lamba.github.io/S25-LIS5043/Week-13/#/title-slide)
 - Week 14:
-    - [Module 9.1: Nonbibliographic Structures for Organizing Knowledge](https://manika-lamba.github.io/S25-LIS5043/Week-14_part1/#/title-slide)
-    - [Module 9.2: Nonbibliographic Structures for organizing knowledge](https://manika-lamba.github.io/S25-LIS5043/Week-14_part2/#/title-slide)
+    - [Module 9.1: Nonbibliographic Structures for Organizing Knowledge]
+    - [Module 9.2: Nonbibliographic Structures for organizing knowledge]
 - [Week 15: Data Stewardship and Visualization](https://manika-lamba.github.io/S25-LIS5043/Week-15/#/title-slide)
