@@ -1,5 +1,5 @@
 ---
-title: "Module 8.2: Representation -- Classification, Categories, Taxonomies, Ontologies"
+title: "Module 8.2: Classification, Categories, Taxonomies & Ontologies"
 subtitle: "LIS 5043: Organization of Information"
 author: 
   - Dr. Manika Lamba
@@ -23,7 +23,7 @@ editor:
 # Introduction
 
 ::: notes
-In this module, we are going to examine another way in which we provide
+This week, we are going to examine another way in which we provide
 access to information and knowledge resources that is also related, in
 most instances, to the subject(s) of the objects.
 
@@ -40,7 +40,7 @@ explore in this module are taxonomies, and ontologies, which are very
 closely related to classification schemes, and are often structured in a
 similar manner.
 
-In this module, you will explore classification as a broad concept, but
+In this week, you will explore classification as a broad concept, but
 also use as an example, the bibliographic classification schemes of DDC
 and LCC in order to understand the purposes and uses of classification
 for subject access.
@@ -337,6 +337,82 @@ notation, as described here.
 For example, the DDC uses a pure numerical system of notation. LCC uses
 mixed alphanumeric system.
 :::
+
+## Taxonomy vs Ontology vs Folksonomy {.smaller}
+
++--------------------+-------------------+--------------------+
+| Taxonomy           | Ontology          | Folksonomy         |
++====================+===================+====================+
+| Subject-based      | Ontology is the   | Folksonomy is      |
+| classification     | study of the      | user-driven        |
+| that arranges the  | categories of     | approach. Users    |
+| terms in a         | things that exist | can add "tags" to  |
+| controlled         | or may exist in   | information and    |
+| vocabulary. It     | some domain. It's | create             |
+| allows related     | the exact         | navigational links |
+| terms to be        | description of    | out of those tags  |
+| grouped together   | things and their  | to help users find |
+| and categorized in | relationships.    | and organize that  |
+| ways that make it  |                   | information later. |
+| easier to find the |                   |                    |
+| correct term to    |                   |                    |
+| use                |                   |                    |
++--------------------+-------------------+--------------------+
+| Taxonomy is useful | Ontology is a     | Folksonomy does    |
+| when searching     | formal            | not have           |
+| for, or            | specification of  | structured         |
+| describing, an     | a shared          | hierarchical       |
+| object             | c                 | organization.      |
+|                    | onceptualization. |                    |
++--------------------+-------------------+--------------------+
+| Taxonomy =         | Ontology are      |                    |
+| Knowledge Map      | considered one of |                    |
+|                    | the pillars of    |                    |
+|                    | Semantic Web      |                    |
++--------------------+-------------------+--------------------+
+
+## Taxonomy vs Ontology vs Folksnomy {.smaller}
+
++--------------------+-------------------+--------------------+
+| Taxonomy           | Ontology          | Folksonomy         |
++====================+===================+====================+
+| We start with a    | Upper, generic,   | Utilizes a         |
+| generalized term,  | top-level         | decentralized,     |
+| and keep getting   | ontology          | collaborative      |
+| more and more      | describes general | view.              |
+| specific. Almost   | knowledge such as |                    |
+| anything may be    | what is time and  | ![                 |
+| classified         | what is space.    | ](images/5-01.png) |
+| according to some  |                   |                    |
+| taxonomic scheme   | Domain ontology   |                    |
+| as long as there   | describes a       |                    |
+| is a logical       | domain such as    |                    |
+| hierarchy          | archives. Task    |                    |
+|                    | ontology is       |                    |
+|                    | suitable for      |                    |
+|                    | particular task   |                    |
+|                    | such as creating  |                    |
+|                    | a DC record for   |                    |
+|                    | XML. Application  |                    |
+|                    | ontology is       |                    |
+|                    | developed for a   |                    |
+|                    | specific          |                    |
+|                    | application such  |                    |
+|                    | as assembling     |                    |
+|                    | personal          |                    |
+|                    | computers         |                    |
+|                    |                   |                    |
+|                    | ![](images/1.png) |                    |
++--------------------+-------------------+--------------------+
+
+## Taxonomy vs Ontology vs Folksnomy {.smaller}
+
++--------------------+-------------------+--------------------+
+| Taxonomy           | Ontology          | Folksonomy         |
++====================+===================+====================+
+| ![](images/3.png)  | ![](images/2.png) | ![                 |
+|                    |                   | ](images/6-01.png) |
++--------------------+-------------------+--------------------+
 
 ## Unique Identification
 
@@ -692,49 +768,65 @@ that is currently in use.
 
 ![](images/clipboard-1107506109.png){fig-align="center"}
 
-:::notes
+::: notes
+There are of course advantages and disadvantages to its use. One
+disadvantage is that it is not designed for shelving or physical
+location of objects within a collection. In the electronic environment,
+however, this is not a disadvantage and this scheme is actually very
+useful in helping users precisely locate objects in information
+retrieval systems.
 
-There are of course advantages and disadvantages to its use. One disadvantage is that it is not designed for shelving or physical location of objects within a collection. In the electronic environment, however, this is not a disadvantage and this scheme is actually very useful in helping users precisely locate objects in information retrieval systems.
-
-
-As you complete the activities for this module, and also just surf the web, look for examples of faceted classification schemes.
-
+As you complete the activities for this module, and also just surf the
+web, look for examples of faceted classification schemes.
 :::
 
 ## Limitations to Classification
 
-1. Knowledge never remains static 
-2. Physical placement distorts cross-relationships 
-3.	Systematic organization produces artificial symmetries 
-4.	Non-logical ordering is sometimes preferable
-5.	Classifiers have psychological tendency to skew system 
-6.	No collection ever precisely reflects universe of knowledge
+1.  Knowledge never remains static
+2.  Physical placement distorts cross-relationships
+3.  Systematic organization produces artificial symmetries
+4.  Non-logical ordering is sometimes preferable
+5.  Classifiers have psychological tendency to skew system
+6.  No collection ever precisely reflects universe of knowledge
 
-:::notes
-As with any structure for organizing knowledge, there are limitations to consider, as noted on this slide.
+::: notes
+As with any structure for organizing knowledge, there are limitations to
+consider, as noted on this slide.
 
-Because knowledge never remains static, classification schemes, taxonomies, and ontologies, also have to be continually reviewed and revised to remain relevant and useful. 
+Because knowledge never remains static, classification schemes,
+taxonomies, and ontologies, also have to be continually reviewed and
+revised to remain relevant and useful.
 
-In schemes that are used for physical placement, there can be issues related to classing complex subjects, or where to class an object that is about more than one subject? Or does classing an object in a specific class produce an artificial symmetry that may be inaccurate? Or could it in turn lead to a new way of thinking? 
+In schemes that are used for physical placement, there can be issues
+related to classing complex subjects, or where to class an object that
+is about more than one subject? Or does classing an object in a specific
+class produce an artificial symmetry that may be inaccurate? Or could it
+in turn lead to a new way of thinking?
 
-Classifiers also have a psychological tendency to skew the system, as they will class items based on their own understandings of the world, a discipline, etc.
+Classifiers also have a psychological tendency to skew the system, as
+they will class items based on their own understandings of the world, a
+discipline, etc.
 :::
 
 ## Careers related to Classification, Taxonomy, Ontology
 
-- Cataloging and classification
-- Ontologists
-- Taxonomists
-- Information Architect
-- Semantic Web
+-   Cataloging and classification
+-   Ontologists
+-   Taxonomists
+-   Information Architect
+-   Semantic Web
 
-:::notes
-Careers related to the development and application of classification schemes in libraries of course include becoming a cataloger, but have you thought about a career as a classificationist or someone who develops or edits existing classification schemes?
+::: notes
+Careers related to the development and application of classification
+schemes in libraries of course include becoming a cataloger, but have
+you thought about a career as a classificationist or someone who
+develops or edits existing classification schemes?
 
-Or as an ontologist or taxonomist who develops specialized ontologies or taxonomies within corporations or for e-commerce, such as an information architect? How do knowledge managers apply the theories of classification/categories within their specific contexts?
+Or as an ontologist or taxonomist who develops specialized ontologies or
+taxonomies within corporations or for e-commerce, such as an information
+architect? How do knowledge managers apply the theories of
+classification/categories within their specific contexts?
 
-Take a look also at the Semantic Web and Knowledge Organizing Structures (KOS) being developed there.
+Take a look also at the Semantic Web and Knowledge Organizing Structures
+(KOS) being developed there.
 :::
-
-
-					
