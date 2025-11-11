@@ -371,6 +371,24 @@ mixed alphanumeric system.
 |                    | Semantic Web      |                    |
 +--------------------+-------------------+--------------------+
 
+:::notes
+
+Now, lets compare taxonomy, ontology, and folksonomy. Each represents a different approach to structuring and describing information, with varying levels of control, formalism, and user participation. 
+
+Let’s begin with taxonomy. A taxonomy is a subject-based classification system that arranges concepts or terms within a controlled vocabulary. It typically follows a hierarchical structure, moving from broader categories to narrower, more specific ones. Taxonomies allow related terms to be grouped together logically, making it easier to navigate collections and retrieve relevant information. For instance, in a library or digital repository, a taxonomy might classify resources under domains such as “Science → Biology → Genetics.”
+
+The main strength of a taxonomy lies in its consistency and predictability. Because it is curated and maintained by experts, users benefit from a structured, standardized way of finding or describing objects. In this sense, a taxonomy serves as a knowledge map, guiding users toward relevant resources and ensuring that similar items are described using the same terminology.
+
+In contrast, ontology goes beyond hierarchical categorization to model the relationships between concepts within a domain. Ontologies aim to provide an exact, formal specification of a shared conceptualization—in other words, a precise description of the things that exist in a particular field and how they relate to one another. For example, an ontology in the biomedical domain might not only define entities such as “gene”, “protein”, and “disease”, but also encode their relationships such as “a gene expresses a protein” or “a protein is associated with a disease.”
+
+Ontologies are thus richer and more expressive than taxonomies. They form the foundation for semantic interoperability, enabling machines to reason about data rather than simply retrieve it. This is why ontologies are considered one of the pillars of the Semantic Web, they support intelligent search, automated inference, and knowledge integration across systems.
+
+Folksonomy represents a more user-driven and collaborative approach to organizing information.
+Unlike taxonomies or ontologies, which are structured and expert-controlled, folksonomies emerge from social tagging—the process by which users assign freely chosen keywords or “tags” to digital resources. For example, in platforms like Flickr, YouTube, or academic repositories with tagging features, users might label content with terms that make sense to them personally, such as “machine learning,” “AI ethics,” or “research methods.” Over time, these user-generated tags form a navigational structure that helps both the individual and the community locate and organize information.
+
+Folksonomies are flexible and democratic, but they lack the hierarchical or relational structure found in taxonomies and ontologies. As a result, while they promote user engagement and reflect evolving language, they can also introduce ambiguity and inconsistency.
+:::
+
 ## Taxonomy vs Ontology vs Folksnomy {.smaller}
 
 +--------------------+-------------------+--------------------+
@@ -405,6 +423,19 @@ mixed alphanumeric system.
 |                    | ![](images/1.png) |                    |
 +--------------------+-------------------+--------------------+
 
+:::notes
+On this slide, you see the principle of taxonomic hierarchy -- the idea that we start with a generalized term and progressively move toward more specific subcategories. This top-down organization allows us to represent knowledge in a logical, systematic manner. For example, consider a classification in the biological sciences:
+Organism → Animal → Mammal → Primate → Human.
+Each step introduces greater specificity while maintaining its relationship to the broader categories above it.
+
+The same logic applies in library and information systems. A taxonomy for digital collections might begin with “Information Resources,” then narrow down to “Text Documents,” followed by “Research Articles,” and finally “Open Access Publications.” This hierarchical structure ensures logical coherence -- almost any concept or object can be classified within such a framework as long as it follows a consistent, rule-based hierarchy.
+
+
+While taxonomies primarily organize concepts hierarchically, ontologies represent not only categories but also relationships and dependencies between them. Ontologies can exist at multiple levels of abstraction ie. Upper vs. domain vs. task, and application. Together, these layers demonstrate how ontology design scales from abstract universals to concrete, task-oriented applications—each serving different roles in knowledge representation and interoperability.
+
+Folksonomy utilizes a decentralized and collaborative model of knowledge organization, where users collectively contribute to the creation and evolution of classification through tagging and shared vocabulary.
+:::
+
 ## Taxonomy vs Ontology vs Folksnomy {.smaller}
 
 +--------------------+-------------------+--------------------+
@@ -413,6 +444,10 @@ mixed alphanumeric system.
 | ![](images/3.png)  | ![](images/2.png) | ![                 |
 |                    |                   | ](images/6-01.png) |
 +--------------------+-------------------+--------------------+
+
+:::notes
+Finally, this slide shows the illustrative comparison of all three. Zoom in the HTML version of the presentation to see the figures clearly. 
+:::
 
 ## Unique Identification
 
