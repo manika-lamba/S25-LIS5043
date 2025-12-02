@@ -44,370 +44,6 @@ today’s data saturated world. We will also briefly look at data
 visualization as a means to help others make sense of their data.
 :::
 
-## What is Data Stewardship? {.smaller}
-
--   `Data Stewardship` is concerned with all aspects of the **creation,
-    management, analysis, and communication of data** focusing
-    particularly on the application of
-    `computational methods to digital data`
-
--   Data Stewardship = Data Management + Data Curation + Data Analytics
-
-    -   Data management: Ensuring the management of data in order to
-        better support the analysis of data
-    -   Data curation: Ensuring that data can be efficiently and
-        reliably found and used
-    -   Data analytics: Employing specific techniques to extract
-        knowledge from data
-
--   It includes among other things: *acquisition and collection,
-    modeling, workflow, provenance, validity and integrity, metadata,
-    preservation, integration, retrieval, re- use, policy, standards,
-    identifiers, format conversions, processing levels, supporting
-    reproducibility*, etc.
-
--   It includes active and on-going management of data through its
-    lifecycle of interest and usefulness to scholarship, science, and
-    education; curation activities enable data discovery and retrieval,
-    maintain quality, add value, and provide for re-use over time.
-
-:::notes
-Read the Slides
-::::
-
-## Science of... vs Practice of...
-
-The [*science*]{.underline} of data stewardship:
-
-```         
-research and development on new methods of data management and use;
-draws on mathematical and engineering methods, but also on methods from social science, law, economics, and other disciplines
-```
-
-The [*practice*]{.underline} of data stewardship:
-
-```         
-use and adaptation of data management methods to meet user needs and support data analytics
-```
-
-:::notes
-Read the Slides
-::::
-
-
-## Values
-
-*`Data analytics values:`* Extraction should be novel, fast, precise,
-accurate
-
-*`Data stewardship values:`* Data should be efficient and reliable:
-**findable, useable, legal** *(thereby supporting novelty, speed,
-precision, accuracy)*
-
-:::notes
-Read the Slides
-::::
-
-## Importance of Data Stewardship {.smaller}
-
--   Where real world interdisciplinary challenges are concerned,
-    managerial & curatorial problems are acute:
-
-> *Large amounts of rapidly changing data, often heterogeneous in nature
-> and developed by different scientific communities, must be found,
-> retrieved, authenticated, reformatted, integrated with other data and
-> managed for effective use, and demonstrably reliable even after
-> processing and preparation*
-
--   Supporting analysis, discovery, and use is an enormous challenge
-
-> . . . it involves the complex management of large-scale data storage
-> and preservation, creation of metadata and tools for retrieval and
-> context documentation, preparation of computationally accessible
-> documentation of provenance and workflow, conducting reliable format
-> conversions to support new tools and applications, the management of
-> identifiers and validity checks that accommodate format changes, the
-> integration of related data elements from substantially different data
-> sources, and more. . . .
-
-:::notes
-Read the Slides
-::::
-
-## Importance of Data Stewardship (Cont.) {.smaller}
-
--   Without successful data management & curation, data analysis is not
-    possible, it would be prohibitively expensive and and dangerously
-    unreliable
-
--   Data Stewardship is the larger part of data science.
-
--   Not only Data Stewardship is essential for reliable efficient
-    analysis, but most of the cost associated with using data is, by
-    far, in management & curation, not analysis, and most of the
-    workforce needs are, also by far, in management & curation, not
-    analysis.
-
-| *Ask any data manager in industry will tell you, it is the management & curatorial work where they make the largest investment, of money, staff, time, and effort*
-
-:::notes
-Read the Slides
-::::
-
-
-## Broader Activities {.smaller}
-
-`Some of the broader activites in Data Stewardship includes:`
-
-![](images/activites.png){fig-align="center"}
-
-::: notes
-1.  **Collection:** It includes support for, e.g., coordination of
-    instrument calibration, protocols, procedures, collection area
-    division, interview transcription, etc. Of particular importance it
-    records information (as metadata) related to collection activity so
-    that all relevant aspects of context are available later to support
-    full understanding, authentication, and provenance.
-
-2.  **Organization:**
-
--   It determine an appropriate data model and schema
--   Use abstraction and indirection to manage data
--   Identify and use any relevant standards for both syntax and
-    semantics
--   Of particular importance:
-    -   Document schema attributes (including specifying datatypes and
-        constraints).
-    -   Document all changes to schemas.
-    -   Maintain metadata for schema changes.
-
-3.  **Storage:** Select storage strategies that proved the right mix of
-    reliability, security and access
-
-4.  **Preservation:** Maintain a documented preservation strategy. This
-    includes not just bit sequence preservation and syntax
-    documentation, but also the documentation of semantics for data
-    elements and the generation and preservation of all metadata needed
-    to ensure that the data is useable and understandable, and can be
-    authenticated and audited for provenance. Execute that strategy with
-    discipline, documenting all actions taken.
-
-5.  **Discoverability:**
-
--   Develop metadata to support searching for and finding relevant data
-    in relevant formats.
--   Support searching that provide relevance ranking and recommends
-    related datasets
-
-6.  **Access:**
-
--   Maintain systems, tools, and metadata that support the efficient and
-    reliable retrieval and distribution of data
--   Add metadata describing file formats
--   Where appropriate control access appropriately and maintain data on
-    distribution and access
-
-7.  **Workflow:**
-
--   The processing of data should be carried out a well-designed modular
-    system of transformations.
--   The role of each module should be documented.
--   The execution of a workflow should be documented as well.
--   To the greatest extent possible documentation should be generated
-    automatically and should itself be both machine readable and
-    executable.
--   Specifically: well-maintained scripts should be developed and used
-    to document as well as execute data transformations
-
-8.  **Identification:**
-
--   Identifier systems must be carefully designed. Attention must be
-    given to what (conceptually) is being identified and to the method
-    of identification.
--   Related entities (such as the data abstractly and the same data
-    represented in different formats) must be both precisely
-    distinguished and precisely related.
--   Version control for format changes, corrections, etc. must be
-    implemented.
--   Authentication (the data is in fact the data it claims to be) and
-    validation (the schema constraints, syntax and semantics, are met)
-    are both fundamental.
-
-9.  **Integration:**
-
--   Both variations in syntax and data element semantics must be
-    accommodated if data from multiple sources is to be combined and
-    related to solve real world problems.
--   Use schema alignment and cross-walking techniques to integrate data.
--   Document integration strategies in detail so that any conflation,
-    data loss, etc. is noted.
-
-10. **Reformatting:**
-
--   Data must frequently be reformatted in order to support new tools,
-    new versions of existing tools, or to meet new format standards.
--   Reformatting must be documented and any changes in semantics or
-    meaning must be identified.
-
-11. **Reproducibility**: It includes documenting not only data
-    collection and management, but also documenting processing and
-    analysis
-
-12. **Sharing:** There are many obstacles to data sharing, ranging from
-    formats, to lack of documentation, to concerns about misuse or
-    misunderstanding. Data stewardship must address these, typically
-    with policies, documentation, metadata, and interoperable systems.
-
-13. **Communication:** To be useful data must be presented in forms that
-    provide insight (such as scientific visualizations) and integrated
-    clearly and efficiently into the full life-cycle of scientific work,
-    which includes scientific publishing. Related communication issues
-    are relevant to other data stewardship activities: in entertainment,
-    documentation, services, etc. Here data stewardship overlaps with
-    interface design.
-
-14. **Provenance:** When one data set (or view) is derived from another,
-    reliable use and understanding requires that the inputs,
-    calculations, and actions responsible for data values can be
-    identified.
-
-15. **Modification:**
-
--   Data must be updated and corrected.
--   This must be supported and managed so that errors are not introduced
-    but so that the changes overtime can be tracked and audited.
-
-16. **Compliance:** The issues here range from intellectual property
-    rights to regulations regarding the privacy of medical, financial,
-    and personal information.
-
-17. **Security:** This will involve methods for controlling access and
-    determining user identity and privileges, as well as data identity,
-    authentication and validation.
-:::
-
-## Data Stewardship: Methods of Action {.smaller}
-
-1.  `Analysis`: To determine needs, and develop relevant data models and
-    metadata, and reformat, correct, or update data.
-2.  `Documentation`: To record essential information (typically via
-    metadata)
-3.  `System design and implementation`: To support all data curatorial
-    activities To support the generation and use of data documentation
-    and processing documentation
-4.  `Policy`: To specify objectives, procedures, practices, and formats.
-5.  `Process`: To ensure success and efficiency by managing the
-    development of appropriate organizational units and roles, providing
-    training, advocating for change, and managing curatorial activities.
-
-:::notes
-Read the Slides
-::::
-
-## Data Stewardship Workforce {.smaller}
-
-> `There is no single occupational category for [data stewardship] and no precise mapping between knowledge and skills needed for [data stewardship] and existing professions, careers, or job titles.`
-
-> `The knowledge and skills required of those engaged in [data stewardship] are dynamic and highly interdisciplinary. They include an integrated understanding of computing and information science, librarianship, archival practice, and the disciplines and domains generating and using data. Additional knowledge and skills for effective [data stewardship] are emerging in response to data-driven scholarship.`
-
-:::notes
-Read the Slides
-::::
-
-## Who Does Data Work? {.smaller}
-
-::: columns
-::: {.column width="50%"}
-Some professional `“data” jobs`:
-
--   Data Scientist
-
--   Data/Business Analyst
-
--   Data Wrangler
-
--   Data Curator
-
--   Data Steward
-
--   Data Engineer
-
--   … ML, AI Engineer
-:::
-
-::: {.column width="50%"}
-and `“database” jobs`:
-
--   Database Engineer
-
--   Database Programmer
-
--   Database Architect
-
--   Database Administrator
-
-and `"library" jobs`:
-
--   Research Data Services Librarian
-
--   Research Data Steward
-
--   Data Librarian
-
--   Data Scholarship Librarian
-
--   Digital Humanities Librarian
-
--   AI Librarian
-:::
-:::
-
-:::notes
-Read the Slides
-::::
-
-# Trends in Data Stewardship
-
-## ![](images/open%20science.png)
-:::notes
-Read the Slides
-::::
-
-
-## ![](images/fair.png)
-:::notes
-Read the Slides
-::::
-
-
-## ![](images/sharing.png)
-:::notes
-Read the Slides
-::::
-
-
-## ![](images/repro.png)
-:::notes
-Read the Slides
-::::
-
-
-## ![](images/repro2.png)
-:::notes
-Read the Slides
-::::
-
-
-## ![](images/ethics.png)
-:::notes
-Read the Slides
-::::
-
-
-:::notes
-Read the Slides
-::::
-
 # What is Data?
 
 ::: notes
@@ -560,8 +196,7 @@ So the next time you see a movie recommendation or navigate through
 smooth traffic, remember that data is working behind the scenes, helping
 you and countless others daily. The world of data is vast and ever
 evolving, but one thing is certain, data is a powerful tool that can be
-used to improve our lives in countless ways. We will examine the types
-of data and the various ways in which data is collected later.
+used to improve our lives in countless ways.
 :::
 
 ## Data Lifecycle
@@ -638,66 +273,463 @@ innovative ways to present information to users, to market their
 services, and to synthesize data for stakeholders.
 :::
 
-## Academic and Professional Organizations {.smaller}
+## What is Data Stewardship? {.smaller}
 
--   [Association for Computing Machinery (ACM)](https://www.acm.org/)
--   [Institute of Electrical and Electronics Engineers
-    (IEEE)](https://www.ieee.org/)
--   [Association for Information Science & Technology
-    (ASIS&T)](https://www.asist.org/)
--   \[Domain and discipline specific organizations
-    -   Biosciences, geosciences, social sciences, economics, etc.
--   [Research Data Alliance (RDA)](https://www.rd-alliance.org/)
--   [Committee on Data (CODATA)](https://codata.org/)
--   [National Digital Stewardship Alliance (NDSA)](https://ndsa.org/)
+-   `Data Stewardship` is concerned with all aspects of the **creation,
+    management, analysis, and communication of data** focusing
+    particularly on the application of
+    `computational methods to digital data`
+
+-   Data Stewardship = Data Management + Data Curation + Data Analytics
+
+    -   Data management: Ensuring the management of data in order to
+        better support the analysis of data
+    -   Data curation: Ensuring that data can be efficiently and
+        reliably found and used
+    -   Data analytics: Employing specific techniques to extract
+        knowledge from data
+
+-   It includes among other things: *acquisition and collection,
+    modeling, workflow, provenance, validity and integrity, metadata,
+    preservation, integration, retrieval, re- use, policy, standards,
+    identifiers, format conversions, processing levels, supporting
+    reproducibility*, etc.
+
+-   It includes active and on-going management of data through its
+    lifecycle of interest and usefulness to scholarship, science, and
+    education; curation activities enable data discovery and retrieval,
+    maintain quality, add value, and provide for re-use over time.
 
 :::notes
-Read the Slides
+Data stewardship refers to everything involved in the creation, management, analysis, and communication of data—especially when we apply computational tools to digital information. A useful way to think about data stewardship is as a combination of data management, data curation, and data analytics. Data management focuses on organizing and handling data so that it effectively supports analysis. Data curation ensures that data remains findable, accessible, and usable over time whereas data analytics involves applying quantitative or computational methods to extract meaning, patterns, or knowledge from data.
+
+Data stewardship includes tasks such as acquiring and collecting data, modeling it, designing workflows, tracking its origins or provenance, checking its validity and integrity, creating metadata, preserving data for the long term, integrating different datasets, retrieving data, and supporting its reuse. It also involves establishing policies, standards, and identifiers, converting formats, managing processing levels, and ensuring that results can be reproduced.
+
+Data stewardship is not a one-time task but an ongoing process. It follows data across its entire lifecycle—from the moment it is collected through its active use in scholarship, science, and education, and even long after its initial purpose has ended. Good data stewardship practices add value, support discovery and retrieval, maintain quality, and make data accessible for future research and reuse.
 ::::
 
-## 
+## Science of... vs Practice of...
 
-![](images/rda.png){fig-align="center"}
+The [*science*]{.underline} of data stewardship:
 
-::: footer
-<https://www.rd-alliance.org/about-the-rda/>
+```         
+research and development on new methods of data management and use;
+draws on mathematical and engineering methods, but also on methods from social science, law, economics, and other disciplines
+```
+
+The [*practice*]{.underline} of data stewardship:
+
+```         
+use and adaptation of data management methods to meet user needs and support data analytics
+```
+
+:::notes
+Now, there is an important distinction between the science of data stewardship and the practice of data stewardship. The science of data stewardship focuses on research and development—creating new methods, theories, and tools for managing and using data. It isn’t limited to computer science or engineering; it also draws on mathematics, social science, economics, law, and other disciplines. This reflects the fact that data management isn’t just a technical challenge—it involves human behavior, organizational structures, ethical considerations, and policy frameworks.
+
+On the other hand, the practice of data stewardship refers to how these methods are actually applied in real settings. This involves adapting existing techniques to support users, solve practical problems, and enable effective data analytics. In practice, stewardship means choosing the right tools and procedures, tailoring them to specific needs, and ensuring data is managed well day-to-day. So while the science of data stewardship develops new knowledge, the practice puts that knowledge into action to support research, decision-making, and innovation.
+::::
+
+
+## Values
+
+*`Data analytics values:`* Extraction should be novel, fast, precise,
+accurate
+
+*`Data stewardship values:`* Data should be efficient and reliable:
+**findable, useable, legal** *(thereby supporting novelty, speed,
+precision, accuracy)*
+
+:::notes
+This slide compares the core values behind data analytics and data stewardship, highlighting how they complement one another. From a data analytics perspective, the focus is on extracting insight that is novel, fast, precise, and accurate. 
+
+Analysts want to uncover something new, do it quickly, and ensure the results are dependable and meaningful. Data stewardship, on the other hand, is grounded in the idea that data itself must be efficient and reliable to support those analytical goals. That means data needs to be findable, usable, and legal to access and apply. 
+
+Good stewardship ensures that analysts can locate the data they need, trust its quality, and use it appropriately within ethical and legal boundaries. Ultimately, data stewardship values create the conditions that allow analytics to deliver novelty, speed, precision, and accuracy—showing how both sides are interdependent in producing high-quality data-driven outcomes.
+::::
+
+## Importance of Data Stewardship {.smaller}
+
+-   Where real world interdisciplinary challenges are concerned,
+    managerial & curatorial problems are acute:
+
+> *Large amounts of rapidly changing data, often heterogeneous in nature
+> and developed by different scientific communities, must be found,
+> retrieved, authenticated, reformatted, integrated with other data and
+> managed for effective use, and demonstrably reliable even after
+> processing and preparation*
+
+-   Supporting analysis, discovery, and use is an enormous challenge
+
+> . . . it involves the complex management of large-scale data storage
+> and preservation, creation of metadata and tools for retrieval and
+> context documentation, preparation of computationally accessible
+> documentation of provenance and workflow, conducting reliable format
+> conversions to support new tools and applications, the management of
+> identifiers and validity checks that accommodate format changes, the
+> integration of related data elements from substantially different data
+> sources, and more. . . .
+
+:::notes
+Now, one can ask why data stewardship is critically important, especially when dealing with real-world, interdisciplinary challenges? 
+
+In many scientific and professional settings, we are confronted with huge amounts of rapidly changing data—data that varies in format, originates from different fields, and is often produced by separate research communities. To make this data useful, it has to be found, retrieved, authenticated, reformatted, integrated, and managed in ways that ensure reliability even after it has been processed or transformed. This alone highlights how steep the challenge is.
+
+Supporting meaningful analysis, discovery, and long-term use of data requires far more than simply storing files. It involves managing large-scale storage systems, preserving data over time, creating metadata to explain context, building retrieval tools, and documenting workflows so that others can reproduce results. 
+
+It also requires reliable format conversions as tools evolve, careful management of identifiers and validity checks, and methods for integrating data from very different sources. In short, data stewardship becomes essential because without it, even high-quality data cannot be trusted, reused, or applied effectively. Good stewardship transforms raw data into usable, credible knowledge that can drive research, policy, innovation, and discovery.
+::::
+
+## Importance of Data Stewardship (Cont.) {.smaller}
+
+-   Without successful data management & curation, data analysis is not
+    possible, it would be prohibitively expensive and and dangerously
+    unreliable
+
+-   Data Stewardship is the larger part of data science.
+
+-   Not only Data Stewardship is essential for reliable efficient
+    analysis, but most of the cost associated with using data is, by
+    far, in management & curation, not analysis, and most of the
+    workforce needs are, also by far, in management & curation, not
+    analysis.
+
+| *Ask any data manager in industry will tell you, it is the management & curatorial work where they make the largest investment, of money, staff, time, and effort*
+
+:::notes
+Now, without effective data management and curation, meaningful data analysis simply cannot happen. Even if analysis were possible, it would be extremely expensive, inefficient, and dangerously unreliable. This reminds us that data stewardship is actually the larger part of data science, even though analysis often gets more attention.
+
+What many people don’t realize is that the majority of the cost, time, and effort involved in working with data goes into managing and curating it, not analyzing it. The same is true for workforce needs -- organizations need far more people dedicated to managing, cleaning, organizing, and preserving data than to performing statistical or computational analysis. 
+
+If you ask anyone working as a data manager in industry, they will tell you that their biggest investments are in data management and curation -- hiring staff, maintaining systems, designing workflows, tracking metadata, cleaning data, and ensuring reliability. This highlights the reality that analysis is only the tip of the iceberg; without strong stewardship underneath, the entire data-driven enterprise collapses.
+::::
+
+
+## Broader Activities {.smaller}
+
+`Some of the broader activites in Data Stewardship includes:`
+
+![](images/activites.png){fig-align="center"}
+
+::: notes
+Some of the broader activites in Data Stewardship includes:
+
+1.  **Collection:** It includes support for, e.g., coordination of
+    instrument calibration, protocols, procedures, collection area
+    division, interview transcription, etc. Of particular importance it
+    records information (as metadata) related to collection activity so
+    that all relevant aspects of context are available later to support
+    full understanding, authentication, and provenance.
+
+2.  **Organization:**
+
+-   It determine an appropriate data model and schema
+-   Use abstraction and indirection to manage data
+-   Identify and use any relevant standards for both syntax and
+    semantics
+-   Of particular importance:
+    -   Document schema attributes (including specifying datatypes and
+        constraints).
+    -   Document all changes to schemas.
+    -   Maintain metadata for schema changes.
+
+3.  **Storage:** Select storage strategies that proved the right mix of
+    reliability, security and access
+
+4.  **Preservation:** Maintain a documented preservation strategy. This
+    includes not just bit sequence preservation and syntax
+    documentation, but also the documentation of semantics for data
+    elements and the generation and preservation of all metadata needed
+    to ensure that the data is useable and understandable, and can be
+    authenticated and audited for provenance. Execute that strategy with
+    discipline, documenting all actions taken.
+
+5.  **Discoverability:**
+
+-   Develop metadata to support searching for and finding relevant data
+    in relevant formats.
+-   Support searching that provide relevance ranking and recommends
+    related datasets
+
+6.  **Access:**
+
+-   Maintain systems, tools, and metadata that support the efficient and
+    reliable retrieval and distribution of data
+-   Add metadata describing file formats
+-   Where appropriate control access appropriately and maintain data on
+    distribution and access
+
+7.  **Workflow:**
+
+-   The processing of data should be carried out a well-designed modular
+    system of transformations.
+-   The role of each module should be documented.
+-   The execution of a workflow should be documented as well.
+-   To the greatest extent possible documentation should be generated
+    automatically and should itself be both machine readable and
+    executable.
+-   Specifically: well-maintained scripts should be developed and used
+    to document as well as execute data transformations
+
+8.  **Identification:**
+
+-   Identifier systems must be carefully designed. Attention must be
+    given to what (conceptually) is being identified and to the method
+    of identification.
+-   Related entities (such as the data abstractly and the same data
+    represented in different formats) must be both precisely
+    distinguished and precisely related.
+-   Version control for format changes, corrections, etc. must be
+    implemented.
+-   Authentication (the data is in fact the data it claims to be) and
+    validation (the schema constraints, syntax and semantics, are met)
+    are both fundamental.
+
+9.  **Integration:**
+
+-   Both variations in syntax and data element semantics must be
+    accommodated if data from multiple sources is to be combined and
+    related to solve real world problems.
+-   Use schema alignment and cross-walking techniques to integrate data.
+-   Document integration strategies in detail so that any conflation,
+    data loss, etc. is noted.
+
+10. **Reformatting:**
+
+-   Data must frequently be reformatted in order to support new tools,
+    new versions of existing tools, or to meet new format standards.
+-   Reformatting must be documented and any changes in semantics or
+    meaning must be identified.
+
+11. **Reproducibility**: It includes documenting not only data
+    collection and management, but also documenting processing and
+    analysis
+
+12. **Sharing:** There are many obstacles to data sharing, ranging from
+    formats, to lack of documentation, to concerns about misuse or
+    misunderstanding. Data stewardship must address these, typically
+    with policies, documentation, metadata, and interoperable systems.
+
+13. **Communication:** To be useful data must be presented in forms that
+    provide insight (such as scientific visualizations) and integrated
+    clearly and efficiently into the full life-cycle of scientific work,
+    which includes scientific publishing. Related communication issues
+    are relevant to other data stewardship activities: in entertainment,
+    documentation, services, etc. Here data stewardship overlaps with
+    interface design.
+
+14. **Provenance:** When one data set (or view) is derived from another,
+    reliable use and understanding requires that the inputs,
+    calculations, and actions responsible for data values can be
+    identified.
+
+15. **Modification:**
+
+-   Data must be updated and corrected.
+-   This must be supported and managed so that errors are not introduced
+    but so that the changes overtime can be tracked and audited.
+
+16. **Compliance:** The issues here range from intellectual property
+    rights to regulations regarding the privacy of medical, financial,
+    and personal information.
+
+17. **Security:** This will involve methods for controlling access and
+    determining user identity and privileges, as well as data identity,
+    authentication and validation.
 :::
 
-## Conferences: Computing and Databases {.smaller}
+## Data Stewardship: Methods of Action {.smaller}
 
--   ACM International Conference on Information & Knowledge Management
-    (CIKM)
--   ACM Special Interest Group on Management of Data (SIDMOD)
--   Very Large Databases (VLDB)
--   IEEE International Conference on Data Engineering (ICDE)
--   ACM SIG on Human-Computer Interaction (SIGHCI)
--   International Provenance and Annotation Workshop (IPAW)
--   International Semantic Web Conference (ISWC)
--   ACM Conference on Fairness, Accountability, and Transparency (FACCT)
--   ACM Conference on Reproducibility and Replicability (REP)
-
-## Conferences: Digital Libraries, Curation, & Preservation
-
--   ACM Joint Conference on Digital Libraries (JCDL)
--   International Conference on Digital Preservation (iPres)
--   International Association for Social Science Information Service and
-    Technology (IASSIST)
--   Open Repositories
+1.  `Analysis`: To determine needs, and develop relevant data models and
+    metadata, and reformat, correct, or update data.
+2.  `Documentation`: To record essential information (typically via
+    metadata)
+3.  `System design and implementation`: To support all data curatorial
+    activities To support the generation and use of data documentation
+    and processing documentation
+4.  `Policy`: To specify objectives, procedures, practices, and formats.
+5.  `Process`: To ensure success and efficiency by managing the
+    development of appropriate organizational units and roles, providing
+    training, advocating for change, and managing curatorial activities.
 
 :::notes
-Read the Slides
+This slide explains the main ways data stewardship operates in practice—the methods through which stewardship is carried out. The first is analysis, which involves determining user or project needs, building appropriate data models, developing metadata structures, and identifying when data needs to be reformatted, corrected, or updated. Analysis helps us understand what the data should look like and what it needs to support meaningful use.
+
+Next is documentation, which is central to stewardship. This is where essential information is recorded—typically as metadata—so users can understand where data came from, how it was processed, and how it should be interpreted. Without documentation, even well-curated data becomes unusable.
+
+We also have system design and implementation, which refers to developing tools and infrastructure that support all stages of curation, including the creation and use of metadata, workflow records, and processing documentation. This is the technical backbone that enables stewardship to function.
+
+Another method of action is policy, which defines the goals, rules, standards, and procedures that guide data management. Policies help ensure consistency, accountability, and compliance with legal or ethical requirements.
+
+Finally, stewardship depends on process management that is the organizational work that ensures things run smoothly. This includes developing appropriate roles and units, providing training, advocating for culture change, and overseeing curatorial activities. Together, these methods show that data stewardship is not only technical but also analytical, organizational, and strategic in nature.
 ::::
 
-## Selected Journals
+## Data Stewardship Workforce {.smaller}
 
--   Transactions on Database Systems (TODS)
--   IEEE Transactions on Knowledge and Data Engineering (TKDE)
--   CODATA Data Science Journal
--   International Journal of Digital Curation (IJDC)
+> `There is no single occupational category for [data stewardship] and no precise mapping between knowledge and skills needed for [data stewardship] and existing professions, careers, or job titles.`
+
+> `The knowledge and skills required of those engaged in [data stewardship] are dynamic and highly interdisciplinary. They include an integrated understanding of computing and information science, librarianship, archival practice, and the disciplines and domains generating and using data. Additional knowledge and skills for effective [data stewardship] are emerging in response to data-driven scholarship.`
 
 :::notes
-Read the Slides
+Now, the key reality about the data stewardship workforce is that there is no single job category that neatly captures this work. Unlike fields such as engineering or accounting, data stewardship doesn’t map cleanly onto existing job titles, degree programs, or professional identities. Instead, people doing this work are spread across many roles such as data managers, librarians, analysts, archivists, IT professionals, researchers and often their responsibilities overlap.
+
+The knowledge and skills required for effective data stewardship are inherently dynamic and interdisciplinary. Practitioners need to understand computing and information science, but they also draw on librarianship, archival practice, research methods, and deep familiarity with the domains that generate and use data. As scholarship becomes more data-driven, new skill sets continue to emerge, such as metadata design, workflow automation, preservation science, compliance expertise, and data ethics.
+
+Data stewardship workforce is evolving rapidly, and developing expertise in this area requires cross-disciplinary thinking, adaptability, and continual learning rather than fitting into a single predefined profession.
 ::::
+
+## Who Does Data Work? {.smaller}
+
+::: columns
+::: {.column width="50%"}
+Some professional `“data” jobs`:
+
+-   Data Scientist
+
+-   Data/Business Analyst
+
+-   Data Wrangler
+
+-   Data Curator
+
+-   Data Steward
+
+-   Data Engineer
+
+-   … ML, AI Engineer
+:::
+
+::: {.column width="50%"}
+and `“database” jobs`:
+
+-   Database Engineer
+
+-   Database Programmer
+
+-   Database Architect
+
+-   Database Administrator
+
+and `"library" jobs`:
+
+-   Research Data Services Librarian
+
+-   Research Data Steward
+
+-   Data Librarian
+
+-   Data Scholarship Librarian
+
+-   Digital Humanities Librarian
+
+-   AI Librarian
+:::
+:::
+
+:::notes
+Now, I want to highlight the wide range of professionals involved in what we broadly call *“data work.”* It’s important to recognize that data-intensive tasks do not belong to a single job title or even a single discipline. Instead, data work spans multiple domains, each bringing different skills, responsibilities, and perspectives.
+
+On the left, you see a set of roles that are often grouped under the umbrella of “data jobs.” These include positions like **data scientists, analysts, wranglers, curators, and stewards.** Each of these roles interacts with data in different ways:
+
+* Data scientists might build predictive models or statistical analyses.
+* Data analysts extract insights, generate dashboards, or support decision-making.
+* Data wranglers spend time cleaning and preparing datasets.
+* Data curators and stewards focus on documentation, quality control, and lifecycle management.
+* Data engineers—and increasingly ML and AI engineers—handle the pipelines and infrastructure that allow data to flow efficiently through an organization.
+
+On the right, you’ll see roles that emerge from the **database** and **library** professions. These are equally essential to the data ecosystem.
+Database engineers, architects, and administrators ensure that data is stored securely, efficiently, and in a way that can be retrieved and used. Their work forms the backbone of many data systems.
+
+The “library jobs” listed here may be less visible to students coming from technical backgrounds, but they play a crucial role in research-intensive settings. Research data librarians and stewards support data management planning, metadata creation, repository deposit, ethical and legal compliance, and long-term preservation. Digital humanities and AI librarians bring disciplinary expertise and help researchers navigate evolving tools and methodologies.
+
+**Data work is inherently interdisciplinary**. It requires technical expertise, organizational knowledge, ethical awareness, and increasingly, collaboration across fields. When we talk about the “data workforce,” we are really referring to an ecosystem—one that spans computing, business, libraries, engineering, and the research enterprise at large.
+
+::::
+
+# Trends in Data Stewardship
+
+## ![](images/open%20science.png)
+:::notes
+In recent years, data stewardship has shifted from being a behind-the-scenes support function to a central component of modern research ecosystems. This change is driven largely by the broader movement toward Open Science, which emphasizes transparency, accessibility, and the reproducibility of scholarly work. As research becomes more data-intensive and collaborative, stewardship practices must evolve to support not just storage, but long-term usability, ethical governance, and interoperability.
+
+One major trend is the growing expectation that research data should be FAIR , ie. findable, accessible, interoperable, and reusable. This means data stewards now work closely with researchers to implement metadata standards, persistent identifiers, data documentation workflows, and repository deposit processes. These activities are no longer optional; they are increasingly mandated by funders, journals, and institutional policies.
+
+Another trend is the rise of open research infrastructures, including open repositories, open-source tools, and shared computational environments. Data stewards play a key role in helping researchers navigate these infrastructures—selecting appropriate platforms, ensuring compliance with licensing, and supporting reproducible computational pipelines.
+
+We also see a growing emphasis on ethical and responsible data governance. As datasets become larger, richer, and more personal, stewards must address privacy, consent, community engagement, and the risks of misuse or bias. This includes working with institutional review boards, legal teams, and domain experts to balance openness with responsibility.
+
+Finally, data stewardship is becoming more collaborative and interdisciplinary. Stewards increasingly work alongside librarians, data engineers, research software developers, and domain scientists. Their role spans the entire research lifecycle—from proposal planning to post-publication curation—and contributes directly to research quality and impact.
+
+All in all, the field is moving toward a model where data stewardship is recognized as a vital part of the research enterprise, supporting not only compliance but also innovation, knowledge sharing, and public trust in science.
+::::
+
+
+## ![](images/fair.png)
+:::notes
+In this slide, we’re focusing on the FAIR principles, Findable, Accessible, Interoperable, and Reusable, which have become foundational guidelines for modern data stewardship. These principles were introduced to help researchers manage and share data in ways that maximize its long-term value, not just for the original research team, but for the broader scientific community.
+
+Let’s walk through what each of these principles means.
+
+**Findable** refers to the idea that both data and metadata should be easy to locate by humans and by machines. That means assigning persistent identifiers like DOIs, describing data with rich metadata, and ensuring that datasets are stored in searchable repositories. The goal is that someone—even years later—should be able to discover and understand what the dataset is.
+
+**Accessible** means that once someone finds the data, they should know how to retrieve it. FAIR doesn’t mean that all data is open; instead, it uses the motto on the slide: *“As open as possible, as closed as necessary.”* So even if data has restrictions—for example, due to privacy or confidentiality—the metadata should remain accessible, and the access protocols should be clear, stable, and transparent.
+
+**Interoperable** addresses the idea that data should be usable across different systems, tools, and research contexts. This involves using standardized formats, shared vocabularies, and well-established metadata schemas. Interoperability ensures that datasets can be connected, compared, or integrated with other datasets without requiring manual, ad-hoc conversions.
+
+**Reusable** is the ultimate goal: ensuring that others can meaningfully use the data in new studies. That requires detailed documentation, clear licensing, provenance information, and adherence to community standards. In other words, someone should be able to understand where the data came from, how it was created, and under what conditions it can be reused.
+
+Together, the FAIR principles help shift data stewardship from simple data storage toward active data management, ensuring the longevity, transparency, and impact of research data and software. Increasingly, funders and journals expect researchers to follow these principles, so understanding them is essential for anyone working with data today.
+::::
+
+
+## ![](images/sharing.png)
+:::notes
+Now, we’re looking at how federal agencies—especially the NIH—are reshaping expectations around data sharing. In recent years, there has been a significant shift toward greater openness and transparency in federally funded research. This means that agencies are no longer treating data sharing as something optional or “nice to have.” Instead, they are moving toward explicit, enforceable requirements that ensure both publications and the underlying data are made publicly available.
+
+A major example of this shift is the NIH Data Management and Sharing (DMS) Policy, which went into effect on January 25, 2023. Under this policy, any researcher receiving NIH funding must submit a detailed Data Management and Sharing Plan as part of their proposal. This plan must describe what data will be produced, how it will be managed, and—most importantly—how and when it will be shared.
+
+The purpose behind this policy is to accelerate scientific discovery in several ways. First, by making data available for validation, the policy strengthens the rigor and reproducibility of biomedical research. Second, it increases accessibility to high-value datasets—many of which are too expensive or time-consuming for most researchers to generate on their own. And finally, these requirements support long-term data reuse, enabling future research studies that build on existing work rather than reinventing the wheel.
+
+The broader trend here is clear: federal funders are aligning themselves with open science principles. They recognize that public dollars should produce publicly accessible knowledge, and that data—when properly managed—has impact far beyond its original project. As researchers, understanding and planning for these requirements is now an essential part of the research lifecycle.
+::::
+
+
+## ![](images/repro.png)
+:::notes
+When we talk about reproducibility and transparency, just curating the dataset is not enough.
+
+To actually reproduce someone’s work, we need to know how that data was produced — the processing steps, the transformations, the tools that were used, and the entire data lineage. Basically, we need the story of the data, not just the final file.
+
+That’s why research curation now includes things like the software, the workflow, the documentation, the metadata, and the provenance of each step. The diagram on the left shows this idea of a “research object,” which bundles all of these components together to make the work understandable and repeatable.
+
+On the right, you see an example from Databricks, which highlights the same idea in a more industry-focused way—tracking not just files, but models, notebooks, dashboards, and all the governance around them.
+
+Therefore, to make research reproducible, we have to curate everything that surrounds the data, not just the data itself.
+::::
+
+
+## ![](images/repro2.png)
+:::notes
+This slide highlights why computational reproducibility has become such a major concern across research fields.
+
+Researchers in many disciplines are reporting that they can’t reproduce results from high-profile studies, even when they follow the described methods closely. And when a study relies on computation—on code, scripts, workflows—that reproducibility problem becomes even more pronounced.
+
+In response, research communities are shifting their norms. There’s now a strong push not just for open data, but for open and transparent computational practices. That means sharing the code, the workflows, the parameters, and all of the supporting information that leads to a published result. In some cases, this material is even being verified or checked before publication.
+
+So to make computational research trustworthy and repeatable, we need more than data—we need openness about the entire computational process.
+::::
+
+
+## ![](images/ethics.png)
+:::notes
+Traditionally, data curation has always had to deal with things like intellectual property, privacy, and human subjects protections. Those aren’t new concerns. But what has changed is the scale and the way data is being used today—especially in machine learning and AI.
+
+With massive datasets being collected and reused, often in ways participants never expected, we’re seeing new ethical challenges. The examples on the right—like the Duke facial recognition dataset or ImageNet—show how data can easily be repurposed or misused. And now we’re even seeing lawsuits around copyrighted content being used to train AI models, which adds another layer of complexity.
+
+At the same time, major regulations like CCPA, GDPR, and the EU AI Act are reshaping what responsible data handling looks like. These laws put real requirements on transparency, consent, and how data can be processed and shared.
+
+As data-driven methods expand, data ethics and regulatory compliance aren’t just checkboxes—they’re central to responsible data curation and AI development.
+::::
+
 
 ## “Everyone wants to do the model work, not the data work”
 
